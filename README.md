@@ -13,6 +13,7 @@
 - [x] Pix2PixHD
 - [ ] Deformable Convolution v1
 - [ ] Deformable Convolution v2
+- [x] BiSeNet
 
 ## Summary
 
@@ -77,4 +78,10 @@ Upsample method: bilinear
 Too much
 
 See https://github.com/NVIDIA/pix2pixHD
+
+### BiSeNet
+
+Spatial Path (ResNet) + Attention Refinement Module (ARM) => Context Path
+
+Feature Fusion Module (FFM)
 
